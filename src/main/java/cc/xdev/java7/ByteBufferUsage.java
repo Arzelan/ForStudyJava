@@ -1,4 +1,4 @@
-package org.example.java7;
+package cc.xdev.java7;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -12,7 +12,8 @@ public class ByteBufferUsage {
         System.out.println(buffer.remaining());//28
         buffer.putChar('A');
         System.out.println(buffer.remaining());//26
-        buffer.putFloat(0.0f); //float占4个字节
+        buffer.putFloat(0.0f);
+        //float use4个byte
         //byte	1字节
         //char	2字节
         //short	2字节

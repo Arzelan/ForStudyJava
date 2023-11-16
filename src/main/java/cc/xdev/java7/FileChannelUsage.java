@@ -1,4 +1,4 @@
-package org.example.java7;
+package cc.xdev.java7;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
